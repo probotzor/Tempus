@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391658701F20A45200913650 /* DashNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3916586F1F20A45200913650 /* DashNotificationCell.swift */; };
+		391658721F20B8D100913650 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391658711F20B8D100913650 /* Notification.swift */; };
+		395C1E2B1F1777CB00A550DC /* MonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C1E2A1F1777CB00A550DC /* MonthCell.swift */; };
+		3994D7341F1908E300CA8A51 /* MonthlyProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994D7331F1908E300CA8A51 /* MonthlyProject.swift */; };
+		3994D7361F191A9700CA8A51 /* MonthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994D7351F191A9700CA8A51 /* MonthsViewController.swift */; };
+		39A6B2681F21537100503895 /* LazyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A6B2671F21537100503895 /* LazyImage.swift */; };
+		39CCFD1E1F194EAC0084C666 /* Mesec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFD1D1F194EAC0084C666 /* Mesec.swift */; };
+		39CCFD201F195D9E0084C666 /* MProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCFD1F1F195D9E0084C666 /* MProjectCell.swift */; };
+		39F2E55F1F1E414300C7BBD7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F2E55E1F1E414300C7BBD7 /* CheckBox.swift */; };
+		440065C61F04F1EA00F08751 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440065C51F04F1EA00F08751 /* ProjectsViewController.swift */; };
+		440065C91F04FB1F00F08751 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440065C81F04FB1F00F08751 /* Project.swift */; };
+		440065CC1F05002700F08751 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440065CB1F05002700F08751 /* ProjectCell.swift */; };
+		440065CE1F051B2600F08751 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440065CD1F051B2600F08751 /* PeopleViewController.swift */; };
+		440065D01F05564C00F08751 /* ProjectDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440065CF1F05564C00F08751 /* ProjectDetailVC.swift */; };
+		440BB85A1F026F930030800F /* SickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BB8591F026F930030800F /* SickViewController.swift */; };
+		440BB85C1F0271370030800F /* HolidayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BB85B1F0271370030800F /* HolidayViewController.swift */; };
+		440BB85E1F0298410030800F /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BB85D1F0298410030800F /* AddUserViewController.swift */; };
+		4419755C1F0B8CE100FD2898 /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4419755B1F0B8CE100FD2898 /* DaysViewController.swift */; };
+		4423CE9A1F06924A006507E7 /* ScrumProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423CE991F06924A006507E7 /* ScrumProfileViewController.swift */; };
+		4423CE9C1F0699CD006507E7 /* ScrumDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4423CE9B1F0699CD006507E7 /* ScrumDashViewController.swift */; };
+		4448F88B1F0116B200F58FB9 /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448F88A1F0116B200F58FB9 /* AddProjectViewController.swift */; };
+		4448F88D1F013EE400F58FB9 /* TrelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448F88C1F013EE400F58FB9 /* TrelloViewController.swift */; };
+		4448F88F1F013F3A00F58FB9 /* AchievmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448F88E1F013F3A00F58FB9 /* AchievmentViewController.swift */; };
+		4448F8911F013F5B00F58FB9 /* WeeklyTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448F8901F013F5B00F58FB9 /* WeeklyTimelineViewController.swift */; };
+		4448F8931F013F7300F58FB9 /* MonthlyTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448F8921F013F7300F58FB9 /* MonthlyTimelineViewController.swift */; };
+		4448F8951F015C2D00F58FB9 /* RequestDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4448F8941F015C2D00F58FB9 /* RequestDayViewController.swift */; };
+		4449E3871F0CF6DA0028B2CC /* TrelloCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4449E3861F0CF6DA0028B2CC /* TrelloCell.swift */; };
+		4454D5151F03DEE9001B4D8F /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4454D5141F03DEE9001B4D8F /* MyCell.swift */; };
+		44709D031F0BCDFF009AAFFC /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44709D021F0BCDFF009AAFFC /* DayCell.swift */; };
+		44709D051F0BCF8E009AAFFC /* Punchcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44709D041F0BCF8E009AAFFC /* Punchcard.swift */; };
+		44740E341EF12AF4007A6A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E331EF12AF4007A6A48 /* AppDelegate.swift */; };
+		44740E361EF12AF4007A6A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E351EF12AF4007A6A48 /* ViewController.swift */; };
+		44740E391EF12AF4007A6A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44740E371EF12AF4007A6A48 /* Main.storyboard */; };
+		44740E3C1EF12AF4007A6A48 /* Tempus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44740E3A1EF12AF4007A6A48 /* Tempus.xcdatamodeld */; };
+		44740E3E1EF12AF4007A6A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44740E3D1EF12AF4007A6A48 /* Assets.xcassets */; };
+		44740E411EF12AF4007A6A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44740E3F1EF12AF4007A6A48 /* LaunchScreen.storyboard */; };
+		44740E4C1EF12AF4007A6A48 /* TempusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E4B1EF12AF4007A6A48 /* TempusTests.swift */; };
+		44740E571EF12AF4007A6A48 /* TempusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E561EF12AF4007A6A48 /* TempusUITests.swift */; };
+		44740E671EF12B95007A6A48 /* Segoe UI in Resources */ = {isa = PBXBuildFile; fileRef = 44740E661EF12B95007A6A48 /* Segoe UI */; };
+		44740E691EF12C18007A6A48 /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44740E681EF12C18007A6A48 /* segoeui.ttf */; };
+		44740E6B1EF12C1E007A6A48 /* segoeuib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44740E6A1EF12C1E007A6A48 /* segoeuib.ttf */; };
+		44740E6D1EF12C36007A6A48 /* segoeuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44740E6C1EF12C36007A6A48 /* segoeuil.ttf */; };
+		44740E6F1EF12C3A007A6A48 /* segoeuisl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44740E6E1EF12C3A007A6A48 /* segoeuisl.ttf */; };
+		44740E711EF12C40007A6A48 /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44740E701EF12C40007A6A48 /* seguisb.ttf */; };
+		44740E731EF13999007A6A48 /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E721EF13999007A6A48 /* ResetViewController.swift */; };
+		44740E761EF13FC6007A6A48 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E751EF13FC6007A6A48 /* ProfileViewController.swift */; };
+		44740E781EF1682B007A6A48 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E771EF1682B007A6A48 /* PasswordResetViewController.swift */; };
+		44740E7A1EF18D19007A6A48 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44740E791EF18D19007A6A48 /* EditProfileViewController.swift */; };
+		44B9E8A41EF8087B00E74B2D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B9E8A31EF8087B00E74B2D /* RegisterViewController.swift */; };
+		44C36CD71F05893500BEBB7C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C36CD61F05893500BEBB7C /* Person.swift */; };
+		44C36CD91F058B5F00BEBB7C /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C36CD81F058B5F00BEBB7C /* PersonCell.swift */; };
+		44C36CDB1F058D9700BEBB7C /* PersonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C36CDA1F058D9700BEBB7C /* PersonDetailVC.swift */; };
+		44D43A4D1F0FBDA30058B5FF /* Dan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D43A4C1F0FBDA30058B5FF /* Dan.swift */; };
+		CE879B26AB007F234C5C7DE3 /* Pods_Tempus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57693CF6AB6C47FA9A3FF6C5 /* Pods_Tempus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44740E481EF12AF4007A6A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44740E281EF12AF4007A6A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44740E2F1EF12AF4007A6A48;
+			remoteInfo = Tempus;
+		};
+		44740E531EF12AF4007A6A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44740E281EF12AF4007A6A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44740E2F1EF12AF4007A6A48;
+			remoteInfo = Tempus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3916586F1F20A45200913650 /* DashNotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashNotificationCell.swift; sourceTree = "<group>"; };
+		391658711F20B8D100913650 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		395C1E2A1F1777CB00A550DC /* MonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCell.swift; sourceTree = "<group>"; };
+		3994D7331F1908E300CA8A51 /* MonthlyProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyProject.swift; sourceTree = "<group>"; };
+		3994D7351F191A9700CA8A51 /* MonthsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthsViewController.swift; sourceTree = "<group>"; };
+		39A6B2671F21537100503895 /* LazyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyImage.swift; sourceTree = "<group>"; };
+		39CCFD1D1F194EAC0084C666 /* Mesec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesec.swift; sourceTree = "<group>"; };
+		39CCFD1F1F195D9E0084C666 /* MProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MProjectCell.swift; sourceTree = "<group>"; };
+		39F2E55E1F1E414300C7BBD7 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		440065C51F04F1EA00F08751 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		440065C81F04FB1F00F08751 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		440065CB1F05002700F08751 /* ProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		440065CD1F051B2600F08751 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		440065CF1F05564C00F08751 /* ProjectDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailVC.swift; sourceTree = "<group>"; };
+		440BB8591F026F930030800F /* SickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickViewController.swift; sourceTree = "<group>"; };
+		440BB85B1F0271370030800F /* HolidayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayViewController.swift; sourceTree = "<group>"; };
+		440BB85D1F0298410030800F /* AddUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		4419755B1F0B8CE100FD2898 /* DaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		4423CE991F06924A006507E7 /* ScrumProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProfileViewController.swift; sourceTree = "<group>"; };
+		4423CE9B1F0699CD006507E7 /* ScrumDashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumDashViewController.swift; sourceTree = "<group>"; };
+		4448F88A1F0116B200F58FB9 /* AddProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProjectViewController.swift; sourceTree = "<group>"; };
+		4448F88C1F013EE400F58FB9 /* TrelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrelloViewController.swift; sourceTree = "<group>"; };
+		4448F88E1F013F3A00F58FB9 /* AchievmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievmentViewController.swift; sourceTree = "<group>"; };
+		4448F8901F013F5B00F58FB9 /* WeeklyTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyTimelineViewController.swift; sourceTree = "<group>"; };
+		4448F8921F013F7300F58FB9 /* MonthlyTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyTimelineViewController.swift; sourceTree = "<group>"; };
+		4448F8941F015C2D00F58FB9 /* RequestDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDayViewController.swift; sourceTree = "<group>"; };
+		4449E3861F0CF6DA0028B2CC /* TrelloCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrelloCell.swift; sourceTree = "<group>"; };
+		4454D5141F03DEE9001B4D8F /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		44709D021F0BCDFF009AAFFC /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		44709D041F0BCF8E009AAFFC /* Punchcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Punchcard.swift; sourceTree = "<group>"; };
+		44740E301EF12AF4007A6A48 /* Tempus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44740E331EF12AF4007A6A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44740E351EF12AF4007A6A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44740E381EF12AF4007A6A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44740E3B1EF12AF4007A6A48 /* Tempus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tempus.xcdatamodel; sourceTree = "<group>"; };
+		44740E3D1EF12AF4007A6A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44740E401EF12AF4007A6A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44740E421EF12AF4007A6A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44740E471EF12AF4007A6A48 /* TempusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44740E4B1EF12AF4007A6A48 /* TempusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempusTests.swift; sourceTree = "<group>"; };
+		44740E4D1EF12AF4007A6A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44740E521EF12AF4007A6A48 /* TempusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44740E561EF12AF4007A6A48 /* TempusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempusUITests.swift; sourceTree = "<group>"; };
+		44740E581EF12AF4007A6A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44740E661EF12B95007A6A48 /* Segoe UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Segoe UI"; sourceTree = "<group>"; };
+		44740E681EF12C18007A6A48 /* segoeui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeui.ttf; path = "Tempus/Segoe UI/segoeui.ttf"; sourceTree = "<group>"; };
+		44740E6A1EF12C1E007A6A48 /* segoeuib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuib.ttf; path = "Tempus/Segoe UI/segoeuib.ttf"; sourceTree = "<group>"; };
+		44740E6C1EF12C36007A6A48 /* segoeuil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuil.ttf; path = "Tempus/Segoe UI/segoeuil.ttf"; sourceTree = "<group>"; };
+		44740E6E1EF12C3A007A6A48 /* segoeuisl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuisl.ttf; path = "Tempus/Segoe UI/segoeuisl.ttf"; sourceTree = "<group>"; };
+		44740E701EF12C40007A6A48 /* seguisb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = seguisb.ttf; path = "Tempus/Segoe UI/seguisb.ttf"; sourceTree = "<group>"; };
+		44740E721EF13999007A6A48 /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		44740E751EF13FC6007A6A48 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		44740E771EF1682B007A6A48 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		44740E791EF18D19007A6A48 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		44B9E8A31EF8087B00E74B2D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		44C36CD61F05893500BEBB7C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		44C36CD81F058B5F00BEBB7C /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		44C36CDA1F058D9700BEBB7C /* PersonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailVC.swift; sourceTree = "<group>"; };
+		44D43A4C1F0FBDA30058B5FF /* Dan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dan.swift; sourceTree = "<group>"; };
+		57693CF6AB6C47FA9A3FF6C5 /* Pods_Tempus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC14D3D8F953C8AEF60A04D /* Pods_TempusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3EE33D16DE6D72B6197981 /* Pods_TempusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D573F0F059285AF3750AC0 /* Pods-Tempus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tempus/Pods-Tempus.release.xcconfig"; sourceTree = "<group>"; };
+		DD5FCC05BDD5F78B7F3C0B8B /* Pods-Tempus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tempus/Pods-Tempus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44740E2D1EF12AF4007A6A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE879B26AB007F234C5C7DE3 /* Pods_Tempus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44740E441EF12AF4007A6A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44740E4F1EF12AF4007A6A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440065C71F04FB0B00F08751 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				440065C81F04FB1F00F08751 /* Project.swift */,
+				44C36CD61F05893500BEBB7C /* Person.swift */,
+				44709D041F0BCF8E009AAFFC /* Punchcard.swift */,
+				44D43A4C1F0FBDA30058B5FF /* Dan.swift */,
+				39CCFD1D1F194EAC0084C666 /* Mesec.swift */,
+				3994D7331F1908E300CA8A51 /* MonthlyProject.swift */,
+				391658711F20B8D100913650 /* Notification.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		440065CA1F04FFF000F08751 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4454D5141F03DEE9001B4D8F /* MyCell.swift */,
+				440065CB1F05002700F08751 /* ProjectCell.swift */,
+				44C36CD81F058B5F00BEBB7C /* PersonCell.swift */,
+				44709D021F0BCDFF009AAFFC /* DayCell.swift */,
+				4449E3861F0CF6DA0028B2CC /* TrelloCell.swift */,
+				395C1E2A1F1777CB00A550DC /* MonthCell.swift */,
+				39CCFD1F1F195D9E0084C666 /* MProjectCell.swift */,
+				3916586F1F20A45200913650 /* DashNotificationCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		44740E271EF12AF4007A6A48 = {
+			isa = PBXGroup;
+			children = (
+				44740E701EF12C40007A6A48 /* seguisb.ttf */,
+				44740E6E1EF12C3A007A6A48 /* segoeuisl.ttf */,
+				44740E6C1EF12C36007A6A48 /* segoeuil.ttf */,
+				44740E6A1EF12C1E007A6A48 /* segoeuib.ttf */,
+				44740E681EF12C18007A6A48 /* segoeui.ttf */,
+				44740E321EF12AF4007A6A48 /* Tempus */,
+				44740E4A1EF12AF4007A6A48 /* TempusTests */,
+				44740E551EF12AF4007A6A48 /* TempusUITests */,
+				44740E311EF12AF4007A6A48 /* Products */,
+				68CF7018AB5C8FBF8A8BFDBD /* Pods */,
+				DBE79A778DDAF8E717CA002E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44740E311EF12AF4007A6A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44740E301EF12AF4007A6A48 /* Tempus.app */,
+				44740E471EF12AF4007A6A48 /* TempusTests.xctest */,
+				44740E521EF12AF4007A6A48 /* TempusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44740E321EF12AF4007A6A48 /* Tempus */ = {
+			isa = PBXGroup;
+			children = (
+				440065CA1F04FFF000F08751 /* View */,
+				440065C71F04FB0B00F08751 /* Model */,
+				44740E741EF139B3007A6A48 /* Controller */,
+				44740E331EF12AF4007A6A48 /* AppDelegate.swift */,
+				39A6B2671F21537100503895 /* LazyImage.swift */,
+				39F2E55E1F1E414300C7BBD7 /* CheckBox.swift */,
+				44740E371EF12AF4007A6A48 /* Main.storyboard */,
+				44740E661EF12B95007A6A48 /* Segoe UI */,
+				44740E3D1EF12AF4007A6A48 /* Assets.xcassets */,
+				44740E3F1EF12AF4007A6A48 /* LaunchScreen.storyboard */,
+				44740E421EF12AF4007A6A48 /* Info.plist */,
+				44740E3A1EF12AF4007A6A48 /* Tempus.xcdatamodeld */,
+			);
+			path = Tempus;
+			sourceTree = "<group>";
+		};
+		44740E4A1EF12AF4007A6A48 /* TempusTests */ = {
+			isa = PBXGroup;
+			children = (
+				44740E4B1EF12AF4007A6A48 /* TempusTests.swift */,
+				44740E4D1EF12AF4007A6A48 /* Info.plist */,
+			);
+			path = TempusTests;
+			sourceTree = "<group>";
+		};
+		44740E551EF12AF4007A6A48 /* TempusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44740E561EF12AF4007A6A48 /* TempusUITests.swift */,
+				44740E581EF12AF4007A6A48 /* Info.plist */,
+			);
+			path = TempusUITests;
+			sourceTree = "<group>";
+		};
+		44740E741EF139B3007A6A48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B9E8A31EF8087B00E74B2D /* RegisterViewController.swift */,
+				44740E721EF13999007A6A48 /* ResetViewController.swift */,
+				44740E351EF12AF4007A6A48 /* ViewController.swift */,
+				44740E751EF13FC6007A6A48 /* ProfileViewController.swift */,
+				44740E771EF1682B007A6A48 /* PasswordResetViewController.swift */,
+				44740E791EF18D19007A6A48 /* EditProfileViewController.swift */,
+				4448F88A1F0116B200F58FB9 /* AddProjectViewController.swift */,
+				4448F88C1F013EE400F58FB9 /* TrelloViewController.swift */,
+				4448F88E1F013F3A00F58FB9 /* AchievmentViewController.swift */,
+				4448F8901F013F5B00F58FB9 /* WeeklyTimelineViewController.swift */,
+				4448F8921F013F7300F58FB9 /* MonthlyTimelineViewController.swift */,
+				4448F8941F015C2D00F58FB9 /* RequestDayViewController.swift */,
+				440BB8591F026F930030800F /* SickViewController.swift */,
+				440BB85B1F0271370030800F /* HolidayViewController.swift */,
+				440BB85D1F0298410030800F /* AddUserViewController.swift */,
+				440065C51F04F1EA00F08751 /* ProjectsViewController.swift */,
+				440065CD1F051B2600F08751 /* PeopleViewController.swift */,
+				440065CF1F05564C00F08751 /* ProjectDetailVC.swift */,
+				44C36CDA1F058D9700BEBB7C /* PersonDetailVC.swift */,
+				4423CE991F06924A006507E7 /* ScrumProfileViewController.swift */,
+				4423CE9B1F0699CD006507E7 /* ScrumDashViewController.swift */,
+				4419755B1F0B8CE100FD2898 /* DaysViewController.swift */,
+				3994D7351F191A9700CA8A51 /* MonthsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		68CF7018AB5C8FBF8A8BFDBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD5FCC05BDD5F78B7F3C0B8B /* Pods-Tempus.debug.xcconfig */,
+				C2D573F0F059285AF3750AC0 /* Pods-Tempus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBE79A778DDAF8E717CA002E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57693CF6AB6C47FA9A3FF6C5 /* Pods_Tempus.framework */,
+				7AC14D3D8F953C8AEF60A04D /* Pods_TempusTests.framework */,
+				AB3EE33D16DE6D72B6197981 /* Pods_TempusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44740E2F1EF12AF4007A6A48 /* Tempus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44740E5B1EF12AF4007A6A48 /* Build configuration list for PBXNativeTarget "Tempus" */;
+			buildPhases = (
+				ED88A698F980C50E1B57F8E6 /* [CP] Check Pods Manifest.lock */,
+				44740E2C1EF12AF4007A6A48 /* Sources */,
+				44740E2D1EF12AF4007A6A48 /* Frameworks */,
+				44740E2E1EF12AF4007A6A48 /* Resources */,
+				D5C9FEF1AC5CBAC91EDAD455 /* [CP] Embed Pods Frameworks */,
+				5C5884AAEE6FED45609B8592 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tempus;
+			productName = Tempus;
+			productReference = 44740E301EF12AF4007A6A48 /* Tempus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44740E461EF12AF4007A6A48 /* TempusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44740E5E1EF12AF4007A6A48 /* Build configuration list for PBXNativeTarget "TempusTests" */;
+			buildPhases = (
+				44740E431EF12AF4007A6A48 /* Sources */,
+				44740E441EF12AF4007A6A48 /* Frameworks */,
+				44740E451EF12AF4007A6A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44740E491EF12AF4007A6A48 /* PBXTargetDependency */,
+			);
+			name = TempusTests;
+			productName = TempusTests;
+			productReference = 44740E471EF12AF4007A6A48 /* TempusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44740E511EF12AF4007A6A48 /* TempusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44740E611EF12AF4007A6A48 /* Build configuration list for PBXNativeTarget "TempusUITests" */;
+			buildPhases = (
+				44740E4E1EF12AF4007A6A48 /* Sources */,
+				44740E4F1EF12AF4007A6A48 /* Frameworks */,
+				44740E501EF12AF4007A6A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44740E541EF12AF4007A6A48 /* PBXTargetDependency */,
+			);
+			name = TempusUITests;
+			productName = TempusUITests;
+			productReference = 44740E521EF12AF4007A6A48 /* TempusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44740E281EF12AF4007A6A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Milos Jakovljeivc";
+				TargetAttributes = {
+					44740E2F1EF12AF4007A6A48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8HHVFZBRB4;
+						ProvisioningStyle = Automatic;
+					};
+					44740E461EF12AF4007A6A48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8HHVFZBRB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44740E2F1EF12AF4007A6A48;
+					};
+					44740E511EF12AF4007A6A48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8HHVFZBRB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44740E2F1EF12AF4007A6A48;
+					};
+				};
+			};
+			buildConfigurationList = 44740E2B1EF12AF4007A6A48 /* Build configuration list for PBXProject "Tempus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44740E271EF12AF4007A6A48;
+			productRefGroup = 44740E311EF12AF4007A6A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44740E2F1EF12AF4007A6A48 /* Tempus */,
+				44740E461EF12AF4007A6A48 /* TempusTests */,
+				44740E511EF12AF4007A6A48 /* TempusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44740E2E1EF12AF4007A6A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44740E691EF12C18007A6A48 /* segoeui.ttf in Resources */,
+				44740E411EF12AF4007A6A48 /* LaunchScreen.storyboard in Resources */,
+				44740E671EF12B95007A6A48 /* Segoe UI in Resources */,
+				44740E3E1EF12AF4007A6A48 /* Assets.xcassets in Resources */,
+				44740E6B1EF12C1E007A6A48 /* segoeuib.ttf in Resources */,
+				44740E391EF12AF4007A6A48 /* Main.storyboard in Resources */,
+				44740E6F1EF12C3A007A6A48 /* segoeuisl.ttf in Resources */,
+				44740E711EF12C40007A6A48 /* seguisb.ttf in Resources */,
+				44740E6D1EF12C36007A6A48 /* segoeuil.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44740E451EF12AF4007A6A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44740E501EF12AF4007A6A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C5884AAEE6FED45609B8592 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tempus/Pods-Tempus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C9FEF1AC5CBAC91EDAD455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tempus/Pods-Tempus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED88A698F980C50E1B57F8E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44740E2C1EF12AF4007A6A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C36CD71F05893500BEBB7C /* Person.swift in Sources */,
+				4454D5151F03DEE9001B4D8F /* MyCell.swift in Sources */,
+				440065CC1F05002700F08751 /* ProjectCell.swift in Sources */,
+				4419755C1F0B8CE100FD2898 /* DaysViewController.swift in Sources */,
+				391658701F20A45200913650 /* DashNotificationCell.swift in Sources */,
+				440BB85E1F0298410030800F /* AddUserViewController.swift in Sources */,
+				440065D01F05564C00F08751 /* ProjectDetailVC.swift in Sources */,
+				4448F8911F013F5B00F58FB9 /* WeeklyTimelineViewController.swift in Sources */,
+				440065CE1F051B2600F08751 /* PeopleViewController.swift in Sources */,
+				440BB85A1F026F930030800F /* SickViewController.swift in Sources */,
+				44740E3C1EF12AF4007A6A48 /* Tempus.xcdatamodeld in Sources */,
+				440065C91F04FB1F00F08751 /* Project.swift in Sources */,
+				39F2E55F1F1E414300C7BBD7 /* CheckBox.swift in Sources */,
+				44740E781EF1682B007A6A48 /* PasswordResetViewController.swift in Sources */,
+				44740E361EF12AF4007A6A48 /* ViewController.swift in Sources */,
+				44709D051F0BCF8E009AAFFC /* Punchcard.swift in Sources */,
+				3994D7341F1908E300CA8A51 /* MonthlyProject.swift in Sources */,
+				395C1E2B1F1777CB00A550DC /* MonthCell.swift in Sources */,
+				44B9E8A41EF8087B00E74B2D /* RegisterViewController.swift in Sources */,
+				39CCFD1E1F194EAC0084C666 /* Mesec.swift in Sources */,
+				4448F8951F015C2D00F58FB9 /* RequestDayViewController.swift in Sources */,
+				44C36CD91F058B5F00BEBB7C /* PersonCell.swift in Sources */,
+				4448F88D1F013EE400F58FB9 /* TrelloViewController.swift in Sources */,
+				4448F8931F013F7300F58FB9 /* MonthlyTimelineViewController.swift in Sources */,
+				3994D7361F191A9700CA8A51 /* MonthsViewController.swift in Sources */,
+				39CCFD201F195D9E0084C666 /* MProjectCell.swift in Sources */,
+				44740E761EF13FC6007A6A48 /* ProfileViewController.swift in Sources */,
+				44740E731EF13999007A6A48 /* ResetViewController.swift in Sources */,
+				4448F88B1F0116B200F58FB9 /* AddProjectViewController.swift in Sources */,
+				44740E341EF12AF4007A6A48 /* AppDelegate.swift in Sources */,
+				44709D031F0BCDFF009AAFFC /* DayCell.swift in Sources */,
+				44740E7A1EF18D19007A6A48 /* EditProfileViewController.swift in Sources */,
+				4423CE9A1F06924A006507E7 /* ScrumProfileViewController.swift in Sources */,
+				391658721F20B8D100913650 /* Notification.swift in Sources */,
+				44D43A4D1F0FBDA30058B5FF /* Dan.swift in Sources */,
+				440065C61F04F1EA00F08751 /* ProjectsViewController.swift in Sources */,
+				4448F88F1F013F3A00F58FB9 /* AchievmentViewController.swift in Sources */,
+				440BB85C1F0271370030800F /* HolidayViewController.swift in Sources */,
+				4449E3871F0CF6DA0028B2CC /* TrelloCell.swift in Sources */,
+				44C36CDB1F058D9700BEBB7C /* PersonDetailVC.swift in Sources */,
+				4423CE9C1F0699CD006507E7 /* ScrumDashViewController.swift in Sources */,
+				39A6B2681F21537100503895 /* LazyImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44740E431EF12AF4007A6A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44740E4C1EF12AF4007A6A48 /* TempusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44740E4E1EF12AF4007A6A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44740E571EF12AF4007A6A48 /* TempusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44740E491EF12AF4007A6A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44740E2F1EF12AF4007A6A48 /* Tempus */;
+			targetProxy = 44740E481EF12AF4007A6A48 /* PBXContainerItemProxy */;
+		};
+		44740E541EF12AF4007A6A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44740E2F1EF12AF4007A6A48 /* Tempus */;
+			targetProxy = 44740E531EF12AF4007A6A48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44740E371EF12AF4007A6A48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44740E381EF12AF4007A6A48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44740E3F1EF12AF4007A6A48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44740E401EF12AF4007A6A48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44740E591EF12AF4007A6A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44740E5A1EF12AF4007A6A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44740E5C1EF12AF4007A6A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5FCC05BDD5F78B7F3C0B8B /* Pods-Tempus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = Tempus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0hills.Tempus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		44740E5D1EF12AF4007A6A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D573F0F059285AF3750AC0 /* Pods-Tempus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = Tempus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0hills.Tempus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		44740E5F1EF12AF4007A6A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = TempusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0hills.TempusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempus.app/Tempus";
+			};
+			name = Debug;
+		};
+		44740E601EF12AF4007A6A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = TempusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0hills.TempusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempus.app/Tempus";
+			};
+			name = Release;
+		};
+		44740E621EF12AF4007A6A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = TempusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0hills.TempusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tempus;
+			};
+			name = Debug;
+		};
+		44740E631EF12AF4007A6A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8HHVFZBRB4;
+				INFOPLIST_FILE = TempusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0hills.TempusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tempus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44740E2B1EF12AF4007A6A48 /* Build configuration list for PBXProject "Tempus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44740E591EF12AF4007A6A48 /* Debug */,
+				44740E5A1EF12AF4007A6A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44740E5B1EF12AF4007A6A48 /* Build configuration list for PBXNativeTarget "Tempus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44740E5C1EF12AF4007A6A48 /* Debug */,
+				44740E5D1EF12AF4007A6A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44740E5E1EF12AF4007A6A48 /* Build configuration list for PBXNativeTarget "TempusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44740E5F1EF12AF4007A6A48 /* Debug */,
+				44740E601EF12AF4007A6A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44740E611EF12AF4007A6A48 /* Build configuration list for PBXNativeTarget "TempusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44740E621EF12AF4007A6A48 /* Debug */,
+				44740E631EF12AF4007A6A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44740E3A1EF12AF4007A6A48 /* Tempus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44740E3B1EF12AF4007A6A48 /* Tempus.xcdatamodel */,
+			);
+			currentVersion = 44740E3B1EF12AF4007A6A48 /* Tempus.xcdatamodel */;
+			path = Tempus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44740E281EF12AF4007A6A48 /* Project object */;
+}

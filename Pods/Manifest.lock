@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - DLRadioButton (1.4.9)
+  - M13Checkbox (3.1.3)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - SwiftMoment (0.7)
+  - SwiftyJSON (3.1.4)
+  - UICheckbox.Swift (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireImage (~> 3.1)
+  - DLRadioButton (~> 1.4)
+  - M13Checkbox
+  - NVActivityIndicatorView
+  - SwiftMoment
+  - SwiftyJSON
+  - UICheckbox.Swift
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  M13Checkbox: c132a7e0eb964731855eff67b883a0b21b7c0977
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
+
+PODFILE CHECKSUM: de89fd8587e5fbd976338a7849e737636d7ba46f
+
+COCOAPODS: 1.2.1
